@@ -121,6 +121,7 @@ main(int argc, char **argv)
      * on the pipe connected to stdout) */
     dup2(1, 2);
 
+
     /* Parse the command line */
     while ((c = getopt(argc, argv, "hvp")) != EOF) {
         switch (c) {
